@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 3rem;
+    width: 50%;
+    height: 60vh;
+    border: 1px solid red;
+     /* overflow: scroll;  */
+     background-size: cover;
+}
+h1{
+    background-color: lightblue;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 5px 5px 5px black ;
+}
+#box_1{
+margin: 2rem;
+box-shadow: 10px 10px 10px 10px red;
+}
+#box_2{
+    margin: 5rem;
+    box-shadow: 0 -10px 0 10px blue;
+}
+#box_3{
+
+    background-image:url(https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+}
+#box_4{
+    background: linear-gradient(to right , cyan, purple);
+}
+#box_5{
+    background-image: linear-gradient(to top ,yellow,cyan ),url(https://a-z-animals.com/media/tiger_laying_hero_background.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 10px red;
+    background-blend-mode: color-burn;
+}
+p{
+    text-shadow: 5px 5px 5px black;
+}
+#box_6{
+
+    background-image: linear-gradient(to top , lightgreen ,lightyellow),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrBydq1EkcmP-Qo2bOc4vm-4HOyo6UdEfDg&usqp=CAU);
+    background-repeat: no-repeat;
+    box-shadow: 10px 0 0 20px blue;
+    background-blend-mode: darken;
+}
+#box_7{
+
+    background-image: linear-gradient(to top , lightgreen ,yellow),url(https://www.helpguide.org/wp-content/uploads/king-charles-spaniel-resting-head.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 0 20px green;
+    background-blend-mode: darken;
+}

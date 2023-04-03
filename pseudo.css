@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+p {}
+p::first-letter{
+    color: red;
+    font-size: 3rem;
+}
+img{
+    width: 20%; 
+    z-index: 1;
+    border-radius: 20px;
+}
+section{
+    width: 50%;
+    height: 70vh;
+    border: 3px solid red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section::before
+{
+    content: "BEFORE";
+    background-color: yellow;
+    width: 40%;
+    height: 70%;
+    border-radius: 50%;
+    position: absolute;
+}
+section::after{
+    content: "AFTER";
+    background-color: black;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+section{
+    border: 1px solid black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 20%;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+input{
+    width: 36%;
+    height: 2.6vw;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    color: white;
+}
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: blue;
+    margin: 1rem;
+    padding: 1rem;
+}
+p{
+    background-color: red;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+#para{
+    background-color: green;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+}
+ul{
+    background-color: aqua;
+    color: white;
+}
+

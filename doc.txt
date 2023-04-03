@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lan='eng'>
+<head>
+<meta charset='UTF-8'>
+<meta name="author" content="jagadeesh">
+<meta name="keywords" content="html,css,javascript">
+<meta name="discription" content="learning web devolpment">
+<tittle>basics of html</tittle>
+</head>
+<body>
+</html>
+
+
